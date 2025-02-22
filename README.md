@@ -178,5 +178,5 @@
      - upper_bound(x): Returns an iterator to the first element that is greater than x.
 
    - Types of sets: 
-    - multiset: It stores duplicate elements in sorted order. 
-    - unordered_set (O(1)) : It stores unique elements in an unordered way.
+      - multiset: It stores duplicate elements in sorted order. 
+      - unordered_set (O(1)) : It stores unique elements in an unordered way.
