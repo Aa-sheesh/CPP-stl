@@ -142,40 +142,39 @@
 
    - Map is a data structure that stores key-value pairs.
 
-     - It is implemented using a balanced binary search tree.
-     - The keys are unique and are stored in sorted order.
-     - map <string, int> m;
-     - m[key]= value;//for insertion and updation
-     - Functions:
+   - It is implemented using a balanced binary search tree.
+   - The keys are unique and are stored in sorted order.
+   - map <string, int> m;
+   - m[key]= value;//for insertion and updation
+   - Functions:
 
-       - insert(key, value),emplace(key, value) (O(logn))
-       - count(key) (O(logn))
-       - find(key) => returns an iterator to the key-value pair else returns m.end()
-       - erase(key) (O(logn))
-       - size(), empty(), erase()
+     - insert(key, value),emplace(key, value) (O(logn))
+     - count(key) (O(logn))
+     - find(key) => returns an iterator to the key-value pair else returns m.end()
+     - erase(key) (O(logn))
+     - size(), empty(), erase()
 
-     - Types of Maps:
+   - Types of Maps:
 
-       1. Multimap: It can store multiple key-value pairs with the same key.
-          Syntax: multimap <string, int> m;
+     1. Multimap: It can store multiple key-value pairs with the same key.
+        Syntax: multimap <string, int> m;
 
-       2. Unordered Map: It is implemented using a hash table. The keys are stored in an unordered fashion.
-          The time complexity of all operations is O(1) on average.
-          Syntax: unordered_map <string, int> m;
+     2. Unordered Map: It is implemented using a hash table. The keys are stored in an unordered fashion.
+        The time complexity of all operations is O(1) on average.
+        Syntax: unordered_map <string, int> m;
 
-    5. Set
-    - Set is a data structure that stores unique elements in sorted order.
-    - It is implemented using a balanced binary search tree.
-    - The time complexity of set operations is O(log n) for insert, delete, search.
-    - Functions:
-        - insert(x)/emplace(x): Insert element x into the set.
-        - count(x): Returns the number of elements equal to x.
-        - erase(x): Removes the element x from the set.
-        - find(x): Returns an iterator to the element x.
-        - size(),empty(),erase()
-        - lower_bound(x): Returns an iterator to the first element that is not less than x.
-        - upper_bound(x): Returns an iterator to the first element that is greater than x.
+   5. Set
 
-    -Types of sets:
-        - multiset: It stores duplicate elements in sorted order.
-        - unordered_set (O(1)) : It stores unique elements in an unordered way.
+   - Set is a data structure that stores unique elements in sorted order.
+   - It is implemented using a balanced binary search tree.
+   - The time complexity of set operations is O(log n) for insert, delete, search.
+   - Functions:
+     - insert(x)/emplace(x): Insert element x into the set.
+     - count(x): Returns the number of elements equal to x.
+     - erase(x): Removes the element x from the set.
+     - find(x): Returns an iterator to the element x.
+     - size(),empty(),erase()
+     - lower_bound(x): Returns an iterator to the first element that is not less than x.
+     - upper_bound(x): Returns an iterator to the first element that is greater than x.
+
+   -Types of sets: - multiset: It stores duplicate elements in sorted order. - unordered_set (O(1)) : It stores unique elements in an unordered way.
